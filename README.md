@@ -34,6 +34,7 @@ vue
 <video ref="videoPlayer" controls @timeupdate="syncSubtitles">
   <track v-for="subtitle in subtitles" :src="subtitle.src" :kind="subtitle.kind" />
 </video>
+
 Part 2 - Video API (Flask as an example):
 
 Set Up Flask:
@@ -65,11 +66,7 @@ Real-time Collaboration:
 
 Integrate a real-time collaboration library like Firebase or Pusher to allow multiple users to edit subtitles simultaneously. Update subtitles in real-time across all connected clients.
 
-Deliverables:
 
-Deployed Application:
-
-Deploy your application on a service like Heroku, Netlify, or Vercel. Provide the URL for evaluation.
 
 
 
